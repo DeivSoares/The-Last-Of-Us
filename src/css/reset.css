@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6a6868;
+    border: 1px solid #00000023;
+    border-radius: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1b1b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
