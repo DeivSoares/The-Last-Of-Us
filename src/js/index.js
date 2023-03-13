@@ -29,3 +29,25 @@ function desativarBotaoSelecionado() {
   const botaoSelecionado = document.querySelector(".selecionado");
   botaoSelecionado.classList.remove("selecionado");
 }
+
+
+let date = new Date();
+let seconds = date.getSeconds();
+
+function teste(botao, indice) {
+  desativarBotaoSelecionado();
+  selecionarBotaoCarrosel(botao);
+  esconderImagemAtiva();
+  mostrarImagemDeFundo(indice);
+}
+
+// setTimeout(function(){
+// console.log("Teste")
+// }, 2000);
+
+// setInterval(function(botao, indice){
+//   desativarBotaoSelecionado();
+//   selecionarBotaoCarrosel(botao);
+//   esconderImagemAtiva();
+//   mostrarImagemDeFundo(indice);
+// }, 2000)
