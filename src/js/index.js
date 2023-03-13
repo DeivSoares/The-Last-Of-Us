@@ -30,7 +30,6 @@ function desativarBotaoSelecionado() {
   botaoSelecionado.classList.remove("selecionado");
 }
 
-
 let date = new Date();
 let seconds = date.getSeconds();
 
